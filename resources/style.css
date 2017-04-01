@@ -1,0 +1,144 @@
+ html {
+   font-family: Helvetica, sans-serif;
+   font-size: 16px;
+   margin: 0;
+   background-color: white;
+ }
+
+ body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  height: 3rem;
+  padding-top: 5px;
+}
+
+.company.container {
+    display: flex;
+    align-items: center;
+    padding: 15px 0em 15px 0.5em;
+}
+
+
+.company img {
+    height: 2em;
+    padding-right: 10rem;
+}
+
+img {
+    border-style: none;
+}
+.main-banner {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+
+}
+
+.company {
+    background-color: black;
+    color: white;
+}
+
+.headline {
+    background-color: black;
+    color: white;
+    width: 20em;
+    padding: 2em 3em;
+    position: relative;
+    top: 9em;
+}
+
+
+.headline h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 0.25em 0;
+}
+
+.toplogo {
+  height: 2rem;
+  padding-top: 2rem;
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+
+}
+
+h1 {
+  margin-left: 200px;
+}
+.mainbanner {
+  width: 1500px;
+  height: 650px;
+  display: block;
+  margin-left: : 0;
+  background-image;
+  background-size: cover;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+}
+
+nav {
+    background-color: firebrick;
+    color: white;
+    width: 1500px;
+    display: block;
+
+
+  }
+
+nav ul {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  width: 1500px;
+  height: 650px;
+  display: block;
+
+}
+
+ul {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+#menu li{
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.product-image {
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2em 0px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0px 0px;
+}
+.product {
+
+}
+.product-image img {
+    max-width: 8em;
+}
