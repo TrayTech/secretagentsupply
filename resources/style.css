@@ -17,6 +17,9 @@
   margin: 0 auto;
   height: 3rem;
   padding-top: 5px;
+  font-family: Helvetica;
+  font-size: 1rem;
+
 }
 
 .company.container {
@@ -28,12 +31,15 @@
 
 .company img {
     height: 2em;
-    padding-right: 10rem;
+    padding-right: 1rem;
+    margin-left: .5rem;
 }
 
 img {
     border-style: none;
 }
+
+
 .main-banner {
     background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
     background-repeat: no-repeat;
@@ -42,6 +48,7 @@ img {
     height: 25em;
 
 }
+
 
 .company {
     background-color: black;
@@ -64,14 +71,6 @@ img {
     margin: 0.25em 0;
 }
 
-.toplogo {
-  height: 2rem;
-  padding-top: 2rem;
-  background-color: black;
-  color: white;
-  margin-top: 5px;
-
-}
 
 h1 {
   margin-left: 200px;
@@ -89,8 +88,6 @@ h1 {
 nav {
     background-color: firebrick;
     color: white;
-    width: 1500px;
-    display: block;
 
 
   }
@@ -99,25 +96,25 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.75em 0;
-  width: 1500px;
+  /*width: 1500px;*/
   height: 650px;
-  display: block;
+  display: flex;
 
 }
 
-ul {
+/*ul {
     display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
-}
+}*/
 
-#menu li{
+/*#menu li{
   display: inline-block;
   justify-content: space-around;
-}
+}*/
 
 .product-image {
     height: 9em;
@@ -127,18 +124,39 @@ ul {
     border-width: 4px;
     border-style: solid;
     border-color: black;
-    border-image: initial;
     padding: 2em 0px;
 }
 
-.products {
-  display: flex;
-  justify-content: space-between;
-  margin: 3em 0px 0px;
+.products, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0 0 0;
 }
 .product {
-
+width: 30%
 }
 .product-image img {
     max-width: 8em;
 }
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+
+  }
+
+  .info .title {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 8em;
+}
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 400px;
+    padding: 5em 0px;
+    max-width: 1500px;
+  }
